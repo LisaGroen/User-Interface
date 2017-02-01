@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.lisag.userinterface.MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="166dp"
+            android:src="@drawable/avrotroslogo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Adres"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:text="Witte Kruislaan"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10sp"
+            android:text="551217 AM Hilversum"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Informatie"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10sp"
+            android:text="AVROTROS is een Nederlandse publieke omroep ontstaan in 2014 uit een fusie van AVRO en TROS. De naam van de fusieomroep werd sinds 1 januari 2014 al gebruikt in gezamenlijke uitzendingen. Sinds 7 september 2014 worden ook alle bestaande programma's uitgezonden onder de naam AVROTROS en op dezelfde datum werd een beeldmerk met het motto Thuis bij AVROTROS geïntroduceerd."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10sp"
+            android:text="AVROTROS is een Nederlandse publieke omroep ontstaan in 2014 uit een fusie van AVRO en TROS. De naam van de fusieomroep werd sinds 1 januari 2014 al gebruikt in gezamenlijke uitzendingen. Sinds 7 september 2014 worden ook alle bestaande programma's uitgezonden onder de naam AVROTROS en op dezelfde datum werd een beeldmerk met het motto Thuis bij AVROTROS geïntroduceerd."
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meer informatie" />
+
+
+    </LinearLayout>
+
+</ScrollView>
